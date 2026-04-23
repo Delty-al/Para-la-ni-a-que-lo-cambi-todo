@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Felices 5 Meses</title>
+
+<!-- Fuentes bonitas -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        overflow-x: hidden;
+        color: #fff;
+        text-align: center;
+    }
+
+    .intro {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        position: relative;
+    }
+
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3rem;
+        max-width: 90%;
+        animation: fadeIn 2s ease;
+    }
+
+    button {
+        margin-top: 30px;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        background: white;
+        color: #e75480;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+        transform: scale(1.1);
+    }
+
+    .contenido {
+        display: none;
+        padding: 40px 20px;
+        animation: fadeIn 2s ease;
+        position: relative;
+        z-index: 2;
+    }
+
+    .card {
+        max-width: 800px;
+        margin: auto;
+        background: rgba(255,255,255,0.95);
+        color: #333;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        line-height: 1.7;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .card p {
+        margin-bottom: 15px;
+    }
+
+    .final {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20px;
+        color: #e75480;
+    }
+
+    .gif {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .gif img {
+        width: 220px;
+        border-radius: 15px;
+    }
+
+    /* Corazones */
+    .heart {
+        position: fixed;
+        bottom: -10px;
+        font-size: 20px;
+        animation: floatUp 6s linear infinite;
+        opacity: 0.7;
+    }
+
+    @keyframes floatUp {
+        0% {
+            transform: translateY(0) scale(1);
+            opacity: 0.7;
+        }
+        100% {
+            transform: translateY(-100vh) scale(1.5);
+            opacity: 0;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="intro">
+    <h1>Felices 5 meses, los más felices de toda mi vida ❤️</h1>
+    <button onclick="mostrar()">Toca aquí</button>
+</div>
+
+<div class="contenido" id="contenido">
+    <div class="card">
+
+        <p>Hoy cumplimos 5 meses, y aunque suene “poquito” para algunos, para mí ha sido un tiempo lleno de cosas que jamás voy a olvidar. Porque contigo no han sido solo días, han sido momentos que se quedan conmigo, que me cambian y que me hacen sentir algo que nunca había sentido así de fuerte.</p>
+
+        <p>Desde que llegaste a mi vida, todo empezó a tener un sentido diferente. Me diste una paz que no sabía que necesitaba, una felicidad que no se fuerza, que simplemente aparece cuando pienso en ti. Eres esa persona que llegó sin hacer ruido, pero que terminó siendo lo más importante en mi día a día.</p>
+
+        <p>Me encanta todo de ti, tu risa, tu forma de hablar, la manera en la que ves las cosas, incluso esos pequeños detalles que tal vez tú no consideras importantes, pero que a mí me hacen enamorarme más. Me gusta cómo me haces sentir, cómo sin darte cuenta me ayudas, me calmas, me haces reír cuando más lo necesito.</p>
+
+        <p>Han sido 5 meses en los que hemos vivido muchas cosas, algunos días fáciles, otros no tanto, pero si algo tengo claro es que en cada uno de ellos te elegiría otra vez. Porque contigo aprendí que el amor no es perfecto, pero sí es real cuando alguien decide quedarse, cuando alguien cuida, cuando alguien no se rinde.</p>
+
+        <p>Y hoy tengo la suerte de poder verte. De poder abrazarte, de sentirte cerca, de confirmar que todo esto no es solo palabras, que eres real, que estás conmigo. No sabes cuánto he esperado este momento, cuánto necesitaba tenerte enfrente y simplemente quedarme ahí, contigo, sin que haga falta nada más.</p>
+
+        <p>A veces me cuesta expresar todo lo que siento, porque es demasiado, pero si pudiera resumirlo, te diría que te has vuelto una parte de mí. Que ya no imagino mis días sin hablar contigo, sin saber de ti, sin compartir lo que me pasa. Te has vuelto hogar, en una persona.</p>
+
+        <p>Gracias por estos 5 meses, por tu paciencia, por tu cariño, por cada detalle, por cada “aquí estoy”. Gracias por no rendirte, por quedarte, por quererme de la forma en la que lo haces. No es algo que tome a la ligera, de verdad lo valoro con todo lo que soy.</p>
+
+        <p>Y si hoy te miro a los ojos, lo único que quiero que entiendas es esto: no solo te quiero por lo que eres, sino por lo que haces en mí. Por cómo me cambias, por cómo me haces mejor, por cómo haces que todo valga la pena.</p>
+
+        <p>Quiero seguir sumando meses contigo, seguir creando recuerdos, seguir aprendiendo a quererte aún más. Porque si estos 5 meses han sido así de bonitos, no me imagino todo lo que nos falta por vivir.</p>
+
+        <p class="final">Te quiero muchísimo, más de lo que puedo explicar, más de lo que las palabras alcanzan ❤️</p>
+
+        <div class="gif">
+            <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="gatitos enamorados">
+        </div>
+
+    </div>
+</div>
+
+<script>
+function mostrar() {
+    document.querySelector('.intro').style.display = 'none';
+    document.getElementById('contenido').style.display = 'block';
+}
+
+// Corazones flotando
+setInterval(() => {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤️";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (Math.random() * 20 + 10) + "px";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 6000);
+}, 300);
+</script>
+
+</body>
+</html>
